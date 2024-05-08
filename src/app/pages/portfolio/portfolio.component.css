@@ -1,0 +1,102 @@
+header {
+    margin-top: 20px;
+    /* border: 1px solid black; */    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.portfolio_presentation {    
+    border: 0px solid black;  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 30px;
+    text-align: justify;   
+}
+
+.portfolio_thanks {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+img {    
+    width: 35%;
+    height: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;    
+    border-radius: 20px;  
+  }
+
+.portfolio_presentation > ul {        
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 15px;
+    text-align: justify; 
+}
+
+li + li {
+    margin-top: 10px;
+}        
+
+
+.portfolio_about-me {
+    border: 0px solid black;  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.portfolio_about-me_quote  {
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.portfolio_about-me > a {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.portfolio_cv-btn {
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: #e1dedb;
+    padding: 12px 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px;    
+}
+
+.portfolio_index-title {
+    border: 0px solid black;  
+    width: 100%;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-top: 30px;  
+}
+

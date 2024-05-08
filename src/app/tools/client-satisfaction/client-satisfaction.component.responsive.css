@@ -1,0 +1,132 @@
+@media screen and (min-width: 431px) and (max-width: 650px) {
+    .customer-satisfaction {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .satisfaction-text {
+        display: flex;
+        padding-left: 170px;
+        margin-top: 8px;
+        font-size: small
+    }
+    
+    .client-grid {
+        display: flex;
+        position: relative;        
+    }
+    
+    .client {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #ddd;
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        top: 0;
+        filter: grayscale(100%);
+    }
+    
+    /* Definindo a sobreposição progressiva */
+    .client:nth-child(1) {
+        z-index: 4;
+    }
+    
+    .client:nth-child(2) {
+        z-index: 3;
+        margin-left: 35px;
+    }
+    
+    .client:nth-child(3) {
+        z-index: 2;
+        margin-left: 70px;
+    }
+    
+    .client:nth-child(4) {
+        z-index: 1;
+        margin-left: 105px;
+    }
+    
+    .client:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        filter: none;
+    }
+    
+    /* Ajustes para visualização em dispositivos menores */
+    @media (max-width: 768px) {
+        .client-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .customer-satisfaction {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .satisfaction-text {
+        display: flex;
+        padding-left: 125px;        
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    
+    .client-grid {
+        display: flex;
+        position: relative;
+        /* align-items: start; */
+    }
+    
+    .client {
+        margin-top: 2px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #ddd;
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        top: 0;
+        filter: grayscale(100%);
+    }
+    
+    /* Definindo a sobreposição progressiva */
+    .client:nth-child(1) {
+        z-index: 4;
+    }
+    
+    .client:nth-child(2) {
+        z-index: 3;
+        margin-left: 25px;
+    }
+    
+    .client:nth-child(3) {
+        z-index: 2;
+        margin-left: 50px;
+    }
+    
+    .client:nth-child(4) {
+        z-index: 1;
+        margin-left: 75px;
+    }
+    
+    .client:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        filter: none;
+    }
+    
+    /* Ajustes para visualização em dispositivos menores */
+    @media (max-width: 768px) {
+        .client-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+

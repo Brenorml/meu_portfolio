@@ -1,0 +1,17 @@
+@media screen and (min-width: 431px) and (max-width: 650px) {
+    .container_small-card { 
+        /* border: 1px solid black;*/
+        width: 615px;
+        height: 110px;           
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container_small-card {     
+        /* border: 1px solid black; */
+        width: 365px;
+        height: 100px;        
+    }
+}
+
+

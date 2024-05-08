@@ -1,0 +1,44 @@
+.evaluate {
+    display: flex;
+    padding-left: 20px;    
+}
+
+.star-icon {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    color: black;
+    font-size: 40px;    
+}
+
+.star-icon::before {
+    content: "\2605";
+}
+
+.star-icon.check~.star-icon::before {
+    content: "\2606";
+}
+
+.evaluate:hover .star-icon::before {
+    content: "\2605";
+}
+
+.star-icon:hover~.star-icon::before {
+    content: "\2606";
+}
+
+.small-card_evaluation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.card_evaluation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card_evaluation-content > h3 {
+    margin-top: 15px;
+}

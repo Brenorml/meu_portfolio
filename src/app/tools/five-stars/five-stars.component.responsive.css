@@ -1,0 +1,93 @@
+@media screen and (min-width: 431px) and (max-width: 650px) {
+    .evaluate {
+        display: flex;
+        padding-left: 10px;
+    }
+    
+    .star-icon {
+        list-style-type: none;        
+        cursor: pointer;
+        color: black;
+        font-size: 40px;
+    }
+    
+    .star-icon::before {
+        content: "\2605";
+    }
+    
+    .star-icon.check~.star-icon::before {
+        content: "\2606";
+    }
+    
+    .evaluate:hover .star-icon::before {
+        content: "\2605";
+    }
+    
+    .star-icon:hover~.star-icon::before {
+        content: "\2606";
+    }
+    
+    .small-card_evaluation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: small;
+    }
+    
+    .card_evaluation-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .card_evaluation-content>h3 {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .evaluate {
+        display: flex;
+        padding-left: 5px;
+    }
+    
+    .star-icon {
+        list-style-type: none;        
+        cursor: pointer;
+        color: black;
+        font-size: 30px;
+    }
+    
+    .star-icon::before {
+        content: "\2605";
+    }
+    
+    .star-icon.check~.star-icon::before {
+        content: "\2606";
+    }
+    
+    .evaluate:hover .star-icon::before {
+        content: "\2605";
+    }
+    
+    .star-icon:hover~.star-icon::before {
+        content: "\2606";
+    }
+    
+    .small-card_evaluation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .card_evaluation-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 10px;
+    }
+    
+    .card_evaluation-content>h3 {
+        margin-top: 15px;
+    }
+}

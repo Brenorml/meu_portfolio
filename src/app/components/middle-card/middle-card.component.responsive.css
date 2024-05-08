@@ -1,0 +1,39 @@
+@media screen and (min-width: 431px) and (max-width: 650px) {
+    .container_middle-card {
+        /* border: 1px solid black; */
+        margin-top: 15px;
+        width: 615px;
+        height: 230px; 
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    h1 {        
+        display: flex;
+        font-size: 30px;       
+        justify-content: center;         
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container_middle-card { 
+        /* border: 1px solid black;*/
+        margin-top: 10px;
+        width: 365px;
+        height: 185px; 
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    h1 {
+        margin-top: 4px;
+        font-size: 24px;
+        display: flex;        
+        justify-content: center;
+    }
+}
+

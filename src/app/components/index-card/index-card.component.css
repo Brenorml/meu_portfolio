@@ -1,0 +1,36 @@
+.container_index-card {    
+    border: 0px solid black;  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;    
+}
+
+.index-card_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+.box_title {
+    border: 0px solid rgb(0, 0, 0);    
+    width: 200px;
+    height: auto;    
+}
+
+.box_contents {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    font-weight: bold;
+}
+
+img {    
+    border: 0px solid rgb(0, 0, 0);    
+    height: 200px;
+    width: 200px;  
+    border-radius: 20px;
+    transition: all 100ms ease-in-out;    
+}

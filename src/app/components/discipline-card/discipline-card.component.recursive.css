@@ -1,0 +1,73 @@
+@media screen and (min-width: 431px) and (max-width: 600px) {
+    p {
+        font-size: medium;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }    
+    
+    img {
+        border: 0px solid rgb(0, 0, 0);
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+        transition: all 100ms ease-in-out;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .discipline-card_title {
+        border: 0px solid rgb(0, 0, 0); 
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: small;
+    }
+
+    .discipline-card_content {
+        border: 0px solid rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .discipline-card_box {
+        display: flex;
+        flex-direction: column;    
+        text-align: center;
+        font-weight: bold;
+        border: 0px solid rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: medium;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    span {
+        border: 0px solid rgb(0, 0, 0);
+        padding-left: 50px;    
+        font-weight: bold; 
+    }
+
+
+    img {
+        border: 0px solid rgb(0, 0, 0);
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        transition: all 100ms ease-in-out;
+    }
+}

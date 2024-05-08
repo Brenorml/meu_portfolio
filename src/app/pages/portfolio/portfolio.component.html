@@ -1,0 +1,213 @@
+<header>
+    <app-menu-bar 
+        tabLeft="VOLTAR" 
+        tabMiddle1="SOBRE" 
+        tabMiddle2="CURRÍCULO" 
+        tabMiddle3="PORTFÓLIO"
+        tabMiddle4="DEPOIMENTOS" 
+        tabRight="CONTACTOS">
+    </app-menu-bar>
+</header>
+<div class="portfolio_menu-title">
+    <app-menu-title></app-menu-title>
+</div>
+<div class="portfolio_index-title">
+    <h3>APRESENTAÇÃO</h3>
+</div>
+<div class="portfolio_presentation">    
+    <p [innerHTML]="aboutPortfolio"></p>
+</div>
+<div class="portfolio_index-title">
+    <h3 id="1">SOBRE MIM</h3>
+</div>
+<div class="portfolio_about-me">    
+    <p [innerHTML]="aboutMe"></p>
+    <div class="portfolio_about-me_quote">
+        <h3><em>"Na Natureza, nada se cria, nada se perde, tudo se transforma."</em></h3>
+        <br>
+        <h4><em>--Antoine Laurent de Lavoisier</em></h4>
+    </div>    
+    <a href="https://1drv.ms/b/s!Ak2_T5MCaVBOpdMa7rc9XRSixzZDRw?e=VATCCw " target="_blank"><button 
+        class="portfolio_cv-btn">CV ONLINE</button></a>
+</div>
+<div class="portfolio_index-title">
+    <h3>MÓDULOS (UFCD)</h3>
+</div>
+<app-index-card
+    idLeft="1"
+    idMid="2"
+    idRight="3"
+    leftBox="https://live.staticflickr.com/65535/53692069914_7dd890069f_b.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53691930483_e22d30bc35_b.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53691930473_8ee7de5742_b.jpg" 
+    leftBoxAlt="0769"
+    middleBoxAlt="0770" 
+    rightBoxAlt="0771"
+    moduleNameLeft="0769 - Arquitetura interna do computador"
+    moduleNameMid="0770 - Dispositivos e periféricos"
+    moduleNameRight="0771 - Conexões de rede">    
+</app-index-card>
+<app-index-card 
+    idLeft="4"
+    idMid="5"
+    idRight="6"
+    leftBox="https://live.staticflickr.com/65535/53691930463_c27508b780_c.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53690837117_42d992bf6c_c.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53692069859_e3fcc2e359.jpg" 
+    leftBoxAlt="0797"
+    middleBoxAlt="0798" 
+    rightBoxAlt="0799"
+    moduleNameLeft="0797 - Sistemas operativos - Tipologias"
+    moduleNameMid="0798 - Utilitários"
+    moduleNameRight="0799 - Sistemas de rede local">    
+</app-index-card>
+<app-index-card
+    idLeft="7"
+    idMid="8"
+    idRight="9"
+    leftBox="https://live.staticflickr.com/65535/53692157310_dff5435d8c.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53692157305_7dd8fafc3c.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53692069844_0798f59979_n.jpg"
+    leftBoxAlt="0800"
+    middleBoxAlt="0801" 
+    rightBoxAlt="0802"
+    moduleNameLeft="0800 - Serviços adicionais de rede"
+    moduleNameMid="0801 - Administração de redes locais"
+    moduleNameRight="0802 - Processamento computacional">    
+</app-index-card>
+<app-index-card
+    idLeft="10"
+    idMid="11"
+    idRight="12"
+    leftBox="https://live.staticflickr.com/65535/53691930398_156b1958f9_n.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53691930423_e52af23522_n.jpg"   
+    rightBox="https://live.staticflickr.com/65535/53690837067_6141e35599_n.jpg"
+    leftBoxAlt="0804"
+    middleBoxAlt="0805" 
+    rightBoxAlt="0806"
+    moduleNameLeft="0804 - Algoritmos"
+    moduleNameMid="0805 - Estrutura de dados"
+    moduleNameRight="0806 - Princípios metodológicos de programação">    
+</app-index-card>
+<app-index-card
+    idLeft="13"
+    idMid="14"
+    idRight="15" 
+    leftBox="https://live.staticflickr.com/65535/53691930318_fdcb52fa74_m.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53691930318_fdcb52fa74_m.jpg"  
+    rightBox="https://live.staticflickr.com/65535/53692157210_fc23080a1c_m.jpg"
+    leftBoxAlt="0807"
+    middleBoxAlt="0808" 
+    rightBoxAlt="0809"
+    moduleNameLeft="0807 - programação Cobol - Fundamentos"
+    moduleNameMid="0808 - programação Cobol - Ficheiros e interatividade"
+    moduleNameRight="0809 - Programação em C/C++ - Fundamentos">    
+</app-index-card>
+<app-index-card
+    idLeft="16"
+    idMid="17"
+    idRight="18"  
+    leftBox="https://live.staticflickr.com/65535/53692157210_fc23080a1c_m.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53691930308_5dfb56c6d9_m.jpg"  
+    rightBox="https://live.staticflickr.com/65535/53691930348_6c8a57f4d1_m.jpg"
+    leftBoxAlt="0810"
+    middleBoxAlt="0811" 
+    rightBoxAlt="0816"
+    moduleNameLeft="0810 - Programação em C/C++ - Avançada"
+    moduleNameMid="0811 - Análise de Sistemas"
+    moduleNameRight="0816 - Programação de sistemas distribuídos - Java">    
+</app-index-card>
+<app-index-card 
+    idLeft="19"
+    idMid="20"
+    idRight="21" 
+    leftBox="https://live.staticflickr.com/65535/53692157140_0b50c761fd_m.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53692157120_bf539c1d74_m.jpg" 
+    rightBox="https://live.staticflickr.com/65535/53691716271_d1d92d8b7c_m.jpg"
+    leftBoxAlt="10788"
+    middleBoxAlt="10790" 
+    rightBoxAlt="10791"
+    moduleNameLeft="10788 - Fundamentos da linguagem SQL"
+    moduleNameMid="10790 - Projeto de programação"
+    moduleNameRight="10791 - Desenvolvimento de aplicações web em Java">    
+</app-index-card>
+<app-index-card 
+    idLeft="22"
+    idMid="23"
+    idRight="24" 
+    leftBox="https://live.staticflickr.com/65535/53690836872_20c7025e49_m.jpg"   
+    middleBox="https://live.staticflickr.com/65535/53690836882_4d9ce44ed7_m.jpg"
+    rightBox="https://live.staticflickr.com/65535/53690836867_f3c466987c_m.jpg"
+    leftBoxAlt="10792"
+    middleBoxAlt="10793" 
+    rightBoxAlt="10794"
+    moduleNameLeft="10792 - Programação ASP.NET Core MVC"
+    moduleNameMid="10793 - Fundamentos de Python"
+    moduleNameRight="10794 - Programação avançada com Python">    
+</app-index-card>
+<app-index-card 
+    idLeft="25"
+    idMid="26"
+    idRight="27" 
+    leftBox="https://live.staticflickr.com/65535/53692069704_44cba08154_m.jpg"  
+    middleBox="https://live.staticflickr.com/65535/53691716176_3d55446c04_m.jpg"
+    rightBox="https://live.staticflickr.com/65535/53690836957_d12a492658_m.jpg"
+    leftBoxAlt="10795"
+    middleBoxAlt="3933" 
+    rightBoxAlt="3934"
+    moduleNameLeft="10795 - Segurança no desenvolvimento de software"
+    moduleNameMid="3933 - Administração de bases de dados para programadores"
+    moduleNameRight="3934 - Programação em Visual Basic.NET">    
+</app-index-card>
+<app-index-card 
+    idLeft="28"
+    idMid="29"
+    idRight="" 
+    leftBox="https://live.staticflickr.com/65535/53691716121_6d92960288_m.jpg"  
+    middleBox="https://live.staticflickr.com/65535/53690836902_96dfa63549_m.jpg"
+    rightBox=""
+    leftBoxAlt="3935"
+    middleBoxAlt="7846" 
+    rightBoxAlt=""
+    moduleNameLeft="3935 - Programação em C#"
+    moduleNameMid="7846 - Informática - Noções básicas"    
+    moduleNameRight="">
+</app-index-card>
+<div class="portfolio_index-title">
+    <h3>OS MELHORES TRABALHOS</h3>
+</div>
+<div class="portfolio_presentation">    
+    <p [innerHTML]="bestWorks"></p>
+    <ul>
+        <li><a href="https://github.com/Brenorml/ASP.NET-IEFP/tree/main/Festinha.PT" target="_blank"><u>A aplicação web nomeada <b>Festinha.PT</b> desenvolvida na UFCD10790 - Projeto de Programação.</u></a></li>
+        <li><a href="https://github.com/Brenorml/Csharp-Data_Structure-IEFP/tree/main/UFCD-3935/ExerciciosCSHARP/WindowsFormsMySQL" target="_blank"><u>O aplicativo desenvolvido na disciplina 3935 - Programação em C#, realizado em Windows Form no Visual Studio, onde tivemos a primeira iteração entre aplicativo e banco de dados SQL do curso.</u></a></li>
+        <li><a href="https://github.com/Brenorml/Python-IEFP/tree/main/UFCD10794/API_NotasAlunos_Breno" target="_blank"><u>Apesar de pouco tempo na disciplina 10794 - Programação avançada com Python, o desenvolvimento de uma API restful através do FastAPI com Python, onde pudemos realizar o C.R.U.D no banco de dados através de endpoints.</u></a></li>
+    </ul>
+</div>
+<div class="portfolio_index-title">
+    <h3>BALANÇO GERAL</h3>
+</div>
+<div class="portfolio_presentation">    
+    <p [innerHTML]="result"></p><br>
+    Pontos fortes:
+    <ul>
+        <li>Alguns docentes que foram muito atenciosos e solicitos, sempre persistindo com quem estava com dificuldades.</li>
+        <li>Agregou-me novos conhecimentos e pude aprofundar alguns conhecimentos que já estudava.</li>
+    </ul><br>
+    Pontos fracos:
+    <ul>
+        <li>Atrasos no curso devido alguns professores desistir ou não manter o planejado, acarretando a extensão no tempo de conclusão do curso.</li>
+        <li>Módulos que tratam de tecnologia já defasada, como por exemplo o de Cobol, ou outros mais irrelevantes para a área de programação que ocupam a carga horário que poderia ser melhor empregada em disciplinas como JavaScript, Angular, React, etc.</li>
+    </ul><br>
+    <p>Com as aprendizagens adquiridas espero começar uma nova vida profissional na área da programação informática. As linguagens que mais gostei foram C#, .NET, Java e Python. O meu background em Arquitetura, poderá ser uma mais valia para o desenvolvimento de páginas web, aplicações, etc.<br><br>Aprendi que, mais uma vez soube adaptar-me às circunstâncias e que nunca é tarde para aprender um pouco mais. Espero entrar no mercado de trabalho e aprender mais sobre esta área que é tão diversa e interessante.<br><br>Para o futuro, espero finalizar a licenciaturta em Engenharia Informática, e assim que consiga colher os frutos desta formação alcançado uma oportunidade profissional, voltarei a investir mais com certificações, como a certificação Java OCP da Oracle, a PCEP de Python, ou um curso preparatório para o exame 70-483 C# programming da Microsoft.</p>
+</div>
+<div class="portfolio_index-title">
+    <h3>AGRADECIMENTOS</h3>
+</div>
+<div class="portfolio_presentation">    
+    <p [innerHTML]="thanksGeneral"></p>
+    <div class="portfolio_thanks">
+        <img src="https://gifs.eco.br/wp-content/uploads/2022/03/gifs-animados-de-obrigado-16.gif" alt="animação gif">
+    </div>
+    
+</div>

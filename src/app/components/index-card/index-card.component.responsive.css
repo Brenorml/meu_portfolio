@@ -1,0 +1,122 @@
+@media screen and (min-width: 601px) and (max-width: 920px) {
+    .container_index-card {
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .index-card_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .box_title {
+        border: 1px solid rgb(0, 0, 0);
+        width: 150px;
+        height: auto;
+    }
+
+    .box_contents {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    img {
+        border: 0px solid rgb(0, 0, 0);
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+        transition: all 100ms ease-in-out;
+    }
+
+}
+
+@media screen and (min-width: 431px) and (max-width: 600px) {
+    .container_index-card {
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .index-card_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .box_title {
+        border: 1px solid rgb(0, 0, 0);
+        width: 100px;
+        height: auto;
+    }
+
+    .box_contents {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    img {
+        border: 0px solid rgb(0, 0, 0);
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        transition: all 100ms ease-in-out;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container_index-card {
+        border: 1px solid black;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .index-card_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .box_title {
+        border: 1px solid rgb(0, 0, 0);
+        width: 100px;
+        height: auto;
+    }
+
+    .box_contents {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    img {
+        border: 0px solid rgb(0, 0, 0);
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        transition: all 100ms ease-in-out;
+    }
+}

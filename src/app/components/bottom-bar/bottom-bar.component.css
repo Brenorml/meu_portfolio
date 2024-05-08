@@ -1,0 +1,24 @@
+.container_bottom-bar {
+    /* border: 1px solid black; */
+    margin-top: 15px;    
+    margin-right: 15px;
+    width: 600px;
+    height: 215px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    margin-top: 44px;
+    height: 125px;
+    width: 125px;
+}
+
+.bottom-bar_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    
+}

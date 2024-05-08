@@ -1,0 +1,22 @@
+<div class="container_index-card">    
+    <div class="index-card_box">
+        <div class="box_contents">
+            <a *ngIf="leftBoxAlt" [routerLink]="['discipline', idLeft]"><img src="{{ leftBox }}" alt="{{ leftBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <div class="box_title">
+                <a [routerLink]="['discipline', idLeft]">{{ moduleNameLeft }}</a>
+            </div>            
+        </div>
+        <div class="box_contents">
+            <a *ngIf="middleBoxAlt" [routerLink]="['discipline', idMid]"><img src="{{ middleBox }}" alt="{{ middleBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <div class="box_title">
+                <a [routerLink]="['discipline', idMid]">{{ moduleNameMid }}</a>
+            </div>            
+        </div>
+        <div class="box_contents">
+            <a *ngIf="rightBoxAlt" [routerLink]="['discipline', idRight]"><img src="{{ rightBox }}" alt="{{ rightBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <div class="box_title">
+                <a [routerLink]="['discipline', idRight]">{{ moduleNameRight }}</a>
+            </div>            
+        </div> 
+    </div>         
+</div>
