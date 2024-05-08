@@ -1,6 +1,6 @@
 @media screen and (min-width: 601px) and (max-width: 920px) {
     .container_index-card {
-        border: 1px solid black;
+        border: 0px solid black;
         width: 100%;
         height: auto;
         display: flex;
@@ -16,7 +16,7 @@
     }
 
     .box_title {
-        border: 1px solid rgb(0, 0, 0);
+        border: 0px solid rgb(0, 0, 0);
         width: 150px;
         height: auto;
     }
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 431px) and (max-width: 600px) {
     .container_index-card {
-        border: 1px solid black;
+        border: 0px solid black;
         width: 100%;
         height: auto;
         display: flex;
@@ -58,7 +58,7 @@
     }
 
     .box_title {
-        border: 1px solid rgb(0, 0, 0);
+        border: 0px solid rgb(0, 0, 0);
         width: 100px;
         height: auto;
     }
@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 430px) {
     .container_index-card {
-        border: 1px solid black;
+        border: 0px solid black;
         width: auto;
         height: auto;
         display: flex;
@@ -99,7 +99,7 @@
     }
 
     .box_title {
-        border: 1px solid rgb(0, 0, 0);
+        border: 0px solid rgb(0, 0, 0);
         width: 100px;
         height: auto;
     }

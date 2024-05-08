@@ -29,12 +29,26 @@
 
     .discipline-card_content {
         border: 0px solid rgb(0, 0, 0);
-        width: 100%;
+        width: 100%;        
         height: auto;
         margin-top: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+    }
+
+    .discipline-card_content > p {
+        border: 0px solid rgb(0, 0, 0);
+        width: 100%;    
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 
     .discipline-card_box {
@@ -49,11 +63,10 @@
     }
 
     p {
-        font-size: medium;
+        font-size: small;
         margin-bottom: 10px;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;      
     }
     
     span {
